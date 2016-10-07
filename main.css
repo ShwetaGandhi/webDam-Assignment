@@ -1,0 +1,65 @@
+#left {
+    width: 10%;
+    height: 100%;
+    position: fixed;
+   color:white;
+    background-color: black;
+
+
+}
+#right{
+    width: 85%;
+    height: auto;
+    position: absolute;
+    right: 0;
+}
+.mainDiv{
+    float:left;
+    margin:20px;
+    width:356px;
+    text-align: center;
+    color:#403f3f;
+
+}
+.explore{
+    border-right: thick double #4e9ad3;
+    padding-bottom: 20px;
+}
+.folder{
+    border-right: thick double #f631ef;
+    padding-bottom: 20px;
+}
+.cloud{
+    border-right: thick double #ff9400;
+    padding-bottom: 20px;
+}
+.devBox{
+    font-size:25px;
+    padding-bottom:20px;
+}
+header{
+    color:#403f3f;
+    background-image: ;
+}
+.small{
+    font:18px bold;
+}
+.large{
+    font:60px bold;
+}
+#wrapper{
+    text-align:right;
+}
+.divTitle{
+    font:18px bold;
+}
+.divDesc{
+    font:12px regular;
+    line-height:24px;
+}
+
+/*converts firts letter of title into capital*/
+.divTitle:first-letter {
+    text-transform:capitalize;
+}
+
